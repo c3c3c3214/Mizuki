@@ -1,6 +1,6 @@
 ---
 title: "测试页"
-published: "2026-11-12"
+published: 2026-11-12
 ---
 
 published:"2026-11.12"
