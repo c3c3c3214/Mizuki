@@ -1,5 +1,8 @@
 ---
-title:情趣藏品
+title: "测试页"
+published: "2026-11-12"
+---
+
 published:"2026-11.12"
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.css">
 <script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
