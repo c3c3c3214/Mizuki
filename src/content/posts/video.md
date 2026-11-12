@@ -47,7 +47,7 @@ const urls = [
   "https://pub-4f5a7f3da62e42ca96c7e87fd47cffe9.r2.dev/sm2.mp4",
   "https://pub-4f5a7f3da62e42ca96c7e87fd47cffe9.r2.dev/sm1.mp4",
 ];
-const containers = ["#p1","#p2","#p3","#p4"];
+const containers = ["#p1","#p2","#p3","#p4","#p5","#p6","#p7","#p8"];
 const players = [];
 urls.forEach((url,i)=>{
   players.push(new Artplayer({
