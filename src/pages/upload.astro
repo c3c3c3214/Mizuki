@@ -1,0 +1,59 @@
+---
+const SUPABASE_URL = import.meta.env.SUPABASE_URL;
+const SUPABASE_ANON_KEY = import.meta.env.SUPABASE_ANON_KEY;
+---
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>视频上传提交</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{max-width:700px;margin:30px auto;padding:0 20px;font-family:system-ui}
+.form-item{margin:12px 0}
+label{display:block;margin-bottom:6px;font-weight:500}
+input,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:6px}
+button{padding:12px 24px;background:#2563eb;color:#fff;border:none;border-radius:6px;cursor:pointer}
+</style>
+</head>
+<body>
+<h2>提交视频信息</h2>
+<form id="uploadForm">
+<div class="form-item">
+<label>影片标题</label>
+<input type="text" name="title" required>
+</div>
+<div class="form-item">
+<label>视频R2直链</label>
+<input type="url" name="videoUrl" required placeholder="https://video.acg.haidaoqi.lol/xxx.mp4">
+</div>
+<div class="form-item">
+<label>简介</label>
+<textarea name="desc" rows="4"></textarea>
+</div>
+<button type="submit">提交等待审核</button>
+</form>
+<script>
+const SUPABASE_URL = import.meta.env.SUPABASE_URL;
+const SUPABASE_ANON_KEY = import.meta.env.SUPABASE_ANON_KEY;
+const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm')
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+const form = document.getElementById('uploadForm')
+form.addEventListener('submit',async e=>{
+  e.preventDefault()
+  const fd = new FormData(form)
+  const data = {
+    title:fd.get('title'),
+    video_url:fd.get('videoUrl'),
+    desc:fd.get('desc'),
+    status:'pending'
+  }
+  const {error} = await supabase.from('videos').insert([data])
+  if(error) alert('提交失败：'+error.message)
+  else {
+    alert('提交成功，等待管理员审核')
+    form.reset()
+  }
+})
+</script>
+</body>
+</html>
