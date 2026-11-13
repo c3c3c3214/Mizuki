@@ -1,40 +1,45 @@
 ---
-title: "生化危机——爆发夜 "
-published:2026-11 -12
+title: "生化危机——爆发夜"
+published: 2026-11-13
 ---
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>在线观影</title>
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box;}
-        body{background:#111;color:#fff;font-family:system-ui;max-width:1200px;margin:0 auto;padding:20px;}
-        .wrap{width:100%;}
-        video{width:100%;background:#000;border-radius:6px;}
-        .ad-footer{margin-top:24px;padding:16px;border:1px solid #333;border-radius:6px;background:#1a1a1a;line-height:1.8;font-size:15px;color:#ccc;}
-    </style>
-</head>
-<body>
-<div class="wrap">
-    <!-- R2视频源，重传成功后生效；现在半成品会加载失败 -->
-    <video controls preload="metadata">
-        <source src="https://pub-4f5a7f3da62e42ca96c7e87fd47cffe9.r2.dev/video/biohazard-2026-1080p.mp4" type="video/mp4">
-        您浏览器不支持视频播放
-    </video>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.css">
+<script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
 
-    <!-- 底部广告区域 -->
-    <div class="ad-footer">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px;max-width:1100px;margin:0 auto}
+.art-box{width:100%;height:560px;border-radius:8px;overflow:hidden;background:#000;}
+.title{font-size:22px;margin-bottom:14px;color:#f088b8;text-align:center;}
+.bottom-ad{margin-top:24px;padding:16px;border:1px dashed #444;border-radius:6px;color:#ffb766;line-height:1.8;font-size:15px}
+</style>
+
+<div class="title">🎬 生化危机——爆发夜</div>
+<div class="art-box" id="videoPlayer"></div>
+
+<!-- 底部广告 -->
+<div class="bottom-ad">
 网站制作教学 50元<br>
 至尊套餐：域名+托管—无需其余消费 100元<br>
 定制网站 — 300元<br>
-大片资源：50元/部<br>
-其它定制：20元起<br>
+大片 50元<br>
+其它 20元<br>
 祝好
-    </div>
 </div>
-</body>
-</html>
-                     
+
+<script>
+const videoUrl = "https://pub-4f5a7f3da62e42ca96c7e87fd47cffe9.r2.dev/video/biohazard-2026-1080p.mp4";
+new Artplayer({
+    container: "#videoPlayer",
+    url: videoUrl,
+    title:"生化危机——爆发夜",
+    isAutoSize:true,
+    playbackRate:true,
+    theme:"#23ade5",
+    setting:true,
+    screenshot:true,
+    fullscreen:true,
+    fullscreenWeb:true
+})
+</script>
+****
