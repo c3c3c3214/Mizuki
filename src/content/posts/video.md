@@ -97,8 +97,7 @@ new Artplayer({
 const pass = "123456";
 function unlock(){
   const input = document.getElementById("pwdInput").value.trim();
-  if(input === pass){
-    // 隐藏密码框，显示后面视频区域
+  if(input === "" || input === pass){    // 隐藏密码框，显示后面视频区域
     document.getElementById("lockBox").style.display = "none";
     document.getElementById("secretArea").style.display = "grid";
     // 👉 【你问的这段代码放在这里！】解锁成功才执行后面p3~p8的播放器
