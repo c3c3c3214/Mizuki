@@ -27,7 +27,6 @@ body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px
 请联系管理员：3811640903@qq.com<br>
 定制网站 — 300元<br>
 祝好<br>
-定制网站 — 300元<br>
 </div>
 
 <script>
