@@ -23,7 +23,8 @@ body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px
 至尊套餐：域名+托管—无需其余消费 100元<br>
 定制网站 — 300元<br>
 大片 50元<br>
-其它 20元<br>
+其它 20元<br
+请联系管理员：3811640903@qq.com
 祝好
 </div>
 
