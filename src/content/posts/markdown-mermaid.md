@@ -22,11 +22,10 @@ body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px
 网站制作教学 50元<br>
 至尊套餐：域名+托管—无需其余消费 100元<br>
 定制网站 — 300元<br>
-大片 50元<br>
-其它 20元<br>
 请联系管理员：3811640903@qq.com<br>
+破解版软件，系统，4k，蓝光，音乐，电子书，漫画，女优，成人，其它---3D打印定制，性价比高，量大特惠<br>
 定制网站 — 300元<br>
-祝好<br>
+祝好各位<br>
 </div>
 
 <script>
