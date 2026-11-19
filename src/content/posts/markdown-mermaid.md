@@ -25,8 +25,7 @@ body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px
 请联系管理员：咸鱼上搜索CC33
 破解版软件，系统，4k，蓝光，音乐，演唱会，单机游戏，电子书，漫画，女优，成人，少量暗网网址，其它   50TB资源任您挑选---3D打印定制，性价比高，量大特惠<br>
 定制网站 — 300元<br>
-终身会员：全网资源离线下载 影视雷达+飞牛观看---500元
-
+终身会员：全网资源离线下载 影视雷达+飞牛观看+资源搜索---1399元
 
 <div class="heart"></div>
 <style>
