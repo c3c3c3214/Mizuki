@@ -52,6 +52,7 @@ body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px
 }
 </style>
 
+<div class="bottom-ad">
 祝好各位，爱你哟！嘿嘿<br>
 
 <script>
