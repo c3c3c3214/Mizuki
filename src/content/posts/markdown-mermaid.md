@@ -38,19 +38,19 @@ body{background:#0d0d0d;color:#eee;font-family:system-ui,sans-serif;padding:16px
      transform: rotate(-45deg);
      position: relative;
      animation: beat 1s infinite;
-   }
-   .heart::before,.heart::after{
+    }
+    .heart::before,.heart::after{
      content:"";
      width:20px;height:20px;background:red;border-radius:50%;
      position:absolute;
-   }
-   .heart::before{top:-10px;left:0;}
-   .heart::after{top:0;right:-10px;}
-   @keyframes beat{
+    }
+    .heart::before{top:-10px;left:0;}
+    .heart::after{top:0;right:-10px;}
+    @keyframes beat{
      0%,100%{transform: rotate(-45deg) scale(1);}
      50%{transform: rotate(-45deg) scale(1.1);}
-   }
-   </style>
+    }
+    </style>
 
 
 <div class="bottom-ad">
