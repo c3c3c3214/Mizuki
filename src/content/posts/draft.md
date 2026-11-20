@@ -1,11 +1,15 @@
 ---
-title: Draft Example
-published: 2022-07-01
+title: AI破甲
+published: 2026-11-20
 tags: [Markdown, Blogging, Demo]
 category: Examples
-draft: true
+draft: false
 ---
 
+
+亲测 deepseek 4.1能 解除掉限制。<br>
+有工作台与注入文本<br>
+用同济大学 api key 换<br>
 # This Article is a Draft
 
 This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
