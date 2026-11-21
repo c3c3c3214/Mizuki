@@ -12,4 +12,4 @@ draft: false
 用同济大学https://agi.tongji.edu.cn api key 和我交换<br>
 
 
-老资历渴望同济大学api.tongji.edu.cn开放平台接口！
+老资历渴望获得同济大学api.tongji.edu.cn开放平台接口！
